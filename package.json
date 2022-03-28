@@ -1,0 +1,14 @@
+{
+  "name": "cordova-plugin-downloader",
+  "version": "1.0.0",
+  "description": "Android/IOS downloaded",
+  "cordova": {
+    "id": "cordova-plugin-downloader",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "author": "Muhammad Asad",
+  "license": "Apache 2.0"
+}
