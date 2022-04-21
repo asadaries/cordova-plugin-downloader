@@ -12,7 +12,7 @@ import Foundation
         let url = URL(string: args["url"] as! String)
         let targetFile = args["path"] as! String
 
-        let documentsUrl =  FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first as URL!
+        let documentsUrl =  FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first as URL?
         let destinationUrl = documentsUrl?.appendingPathComponent(targetFile)
 
         if FileManager().fileExists(atPath: destinationUrl!.path) {
