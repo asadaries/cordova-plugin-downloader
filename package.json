@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-downloader",
-  "version": "1.0.0",
+  "version": "1.1",
   "description": "Android/IOS downloaded",
   "cordova": {
     "id": "cordova-plugin-downloader",
